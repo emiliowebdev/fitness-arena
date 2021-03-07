@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: Aldrich;
+    src: url(../node_modules/@fontsource/aldrich/files/aldrich-all-400-normal.woff);
+  }
+
+main {
+    background: url('./assets/gym_wp.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-link {
+    font-family: 'Aldrich';
+    font-size: larger;
+    cursor: pointer;
+}
